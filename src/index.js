@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import image from './va email scraping.png'
+import MediaCard from './MediaCard';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MediaCard title="Fiverr Gig" body="I provide following services" myimage={image} />
   </React.StrictMode>,
   document.getElementById('root')
 );
